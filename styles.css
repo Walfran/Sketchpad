@@ -1,0 +1,61 @@
+*,
+*::before
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6667AB;
+    font-size: 14px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 960px;
+    gap: 5px;
+    margin: 20px;
+}
+
+.cell {
+    background-color: lightgray;
+    border: 1px solid #333;
+    width: 10px;
+    height: 10px;
+}
+
+.cell-painted {
+    background-color: black;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 4px 2px -1px yellow;
+}
+
+button {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+    font-size: 16px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+input {
+    width: 10%;
+}
